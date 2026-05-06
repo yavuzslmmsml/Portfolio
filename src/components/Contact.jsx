@@ -4,9 +4,9 @@ import linkedinIcon from '../assets/linkedin.svg';
 import RevealSection from './RevealSection';
 
 const contactLinks = [
-  { label: 'LinkedIn', href: '#', icon: linkedinIcon },
-  { label: 'GitHub', href: '#', icon: githubIcon },
-  { label: 'E-posta', href: 'mailto:yourmail@example.com', icon: envelopeIcon },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/yavuzselimmsml/', target: '_blank', icon: linkedinIcon },
+  { label: 'GitHub', href: 'https://github.com/yavuzslmmsml', target: '_blank', icon: githubIcon },
+  { label: 'E-posta', href: 'mailto:yavuzselimmsml@gmail.com', icon: envelopeIcon },
 ];
 
 export default function Contact() {
@@ -36,6 +36,7 @@ export default function Contact() {
                 <a
                   key={link.label}
                   href={link.href}
+                  target={link.target}
                   className="group inline-flex items-center justify-center gap-2 rounded-full border border-[#1E2329]/10 bg-[#1E2329] px-5 py-3 text-sm font-semibold text-white transition-colors duration-300 ease-in-out hover:bg-[#FCD535] hover:text-[#1E2329] focus:outline-none focus:ring-2 focus:ring-[#FCD535] focus:ring-offset-4 dark:border-white/10 dark:bg-[#FCD535] dark:text-[#1E2329] dark:hover:bg-white dark:focus:ring-offset-[#1E2329]"
                 >
                   <img
