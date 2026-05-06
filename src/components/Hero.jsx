@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <RevealSection
       id="home"
-      className="relative scroll-mt-6 overflow-hidden border-b border-[#1E2329]/5 bg-white transition-colors duration-300 ease-in-out dark:border-white/5 dark:bg-[#1E2329]"
+      className="relative scroll-mt-6 overflow-hidden border-b border-[#1E2329]/5 bg-[#FFFFFB] transition-colors duration-300 ease-in-out dark:border-white/5 dark:bg-[#1E2329]"
     >
       <div
         className="absolute inset-x-0 top-0 h-80 bg-gradient-to-b from-[#1E2329]/5 to-transparent dark:from-[#0B0E11]/60"
@@ -24,7 +24,7 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="rounded-2xl bg-[#F5F5F5] p-6 transition-colors duration-300 ease-in-out hover:bg-[#F2F2F2] dark:border dark:border-white/5 dark:bg-[#1E2329]">
+        <div className="rounded-2xl border border-[#1E2329]/15 bg-[#FFFFFB] p-6 shadow-md shadow-[#1E2329]/10 transition-colors duration-300 ease-in-out dark:border-white/15 dark:bg-[#1E2329] dark:shadow-black/25">
           <div className="flex items-center justify-between pb-5">
             <div>
               <h2 className="mt-1 text-xl font-semibold text-[#1E2329] dark:text-white">
@@ -40,7 +40,7 @@ export default function Hero() {
             {tags.map((tag) => (
               <div
                 key={tag}
-                className="flex items-center justify-between rounded-2xl border border-[#1E2329]/5 bg-white px-4 py-4 transition-colors duration-300 ease-in-out hover:border-[#FCD535]/70 dark:border-white/5 dark:bg-white/5 dark:hover:border-[#FCD535]/70"
+                className="flex items-center justify-between rounded-2xl border border-[#1E2329]/10 bg-[#FFFFFB] px-4 py-4 shadow-sm shadow-[#1E2329]/5 transition-colors duration-300 ease-in-out hover:border-[#FCD535]/80 dark:border-white/10 dark:bg-white/5 dark:shadow-black/20 dark:hover:border-[#FCD535]/80"
               >
                 <span className="text-sm font-semibold text-[#1E2329] dark:text-zinc-100">
                   {tag}

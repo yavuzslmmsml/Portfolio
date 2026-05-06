@@ -12,7 +12,7 @@ export default function Header({ isDarkMode, onToggleMode }) {
   const modeIcon = isDarkMode ? sunIcon : moonIcon;
 
   return (
-    <header className="border-b border-[#1E2329]/5 bg-white/90 backdrop-blur transition-colors duration-300 ease-in-out dark:border-white/5 dark:bg-[#1E2329]/90">
+    <header className="border-b border-[#1E2329]/5 bg-[#FFFFFB]/90 backdrop-blur transition-colors duration-300 ease-in-out dark:border-white/5 dark:bg-[#1E2329]/90">
       <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-8">
         <a
           href="#home"

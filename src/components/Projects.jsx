@@ -19,7 +19,7 @@ export default function Projects() {
   return (
     <RevealSection
       id="projects"
-      className="scroll-mt-6 bg-white pb-20 pt-8 transition-colors duration-300 ease-in-out sm:pb-24 sm:pt-10 dark:bg-[#1E2329]"
+      className="scroll-mt-6 bg-[#FFFFFB] pb-20 pt-8 transition-colors duration-300 ease-in-out sm:pb-24 sm:pt-10 dark:bg-[#1E2329]"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
@@ -37,7 +37,7 @@ export default function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="flex min-h-[300px] flex-col rounded-2xl border border-[#1E2329]/5 bg-white p-6 transition-colors duration-300 ease-in-out dark:border-white/5 dark:bg-[#1E2329]"
+              className="flex min-h-[300px] flex-col rounded-2xl border border-[#1E2329]/15 bg-[#FFFFFB] p-6 shadow-md shadow-[#1E2329]/10 transition-colors duration-300 ease-in-out dark:border-white/15 dark:bg-[#1E2329] dark:shadow-black/25"
             >
               <div className="flex items-start justify-between gap-4">
                 <h3 className="text-xl font-semibold tracking-tight text-[#1E2329] dark:text-white">

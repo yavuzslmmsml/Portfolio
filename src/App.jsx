@@ -16,7 +16,7 @@ export default function App() {
   }, [isDarkMode]);
 
   return (
-    <div className="min-h-screen bg-white text-[#1E2329] antialiased transition-colors duration-300 ease-in-out dark:bg-[#1E2329] dark:text-white">
+    <div className="min-h-screen bg-[#FFFFFB] text-[#1E2329] antialiased transition-colors duration-300 ease-in-out dark:bg-[#1E2329] dark:text-white">
       <Header
         isDarkMode={isDarkMode}
         onToggleMode={() => setIsDarkMode((current) => !current)}
