@@ -5,10 +5,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        kalam: ['Kalam', 'cursive'],
+        kalam: ['Space Grotesk', 'sans-serif'],
         sans: [
-          'Kalam',
-          'cursive',
+          'Space Grotesk',
           'ui-sans-serif',
           'system-ui',
           'Segoe UI',

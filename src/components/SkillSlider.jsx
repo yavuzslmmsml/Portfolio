@@ -1,24 +1,24 @@
 import RevealSection from './RevealSection';
-import azureLogo from '../assets/skills/azure.png';
+import azureLogo from '../assets/skills/azure-icon.png';
 import chatgptLogo from '../assets/skills/chatgpt.png';
 import csharpLogo from '../assets/skills/csharp.png';
 import githubLogo from '../assets/skills/github.svg';
-import huaweiLogo from '../assets/skills/huawei.png';
+import huaweiLogo from '../assets/skills/huawei-icon.png';
 import n8nLogo from '../assets/skills/n8n.png';
-import postgresqlLogo from '../assets/skills/postgresql-wordmark.svg';
+import postgresqlLogo from '../assets/skills/postgresql-icon.png';
 import phpLogo from '../assets/skills/php.png';
-import reactLogo from '../assets/skills/react-wordmark.svg';
+import reactLogo from '../assets/skills/react-icon.png';
 
 const sliderSkills = [
-  { name: 'Huawei Cloud', logo: huaweiLogo, wide: true },
+  { name: 'Huawei Cloud', logo: huaweiLogo },
   { name: 'Azure', logo: azureLogo },
-  { name: 'React', logo: reactLogo, wide: true },
+  { name: 'React', logo: reactLogo },
   { name: 'PHP', logo: phpLogo },
   { name: 'C#', logo: csharpLogo },
-  { name: 'ChatGPT', logo: chatgptLogo },
-  { name: 'PostgreSQL', logo: postgresqlLogo, wide: true },
+  { name: 'ChatGPT', logo: chatgptLogo, invertInDark: true },
+  { name: 'PostgreSQL', logo: postgresqlLogo },
   { name: 'n8n', logo: n8nLogo },
-  { name: 'GitHub', logo: githubLogo },
+  { name: 'GitHub', logo: githubLogo, invertInDark: true },
 ];
 
 export default function SkillSlider() {
@@ -40,14 +40,23 @@ export default function SkillSlider() {
               {sliderSkills.map((skill) => (
                 <div
                   key={`${group}-${skill.name}`}
-                  className={`flex h-20 ${skill.wide ? 'w-56' : 'w-36'} items-center justify-center`}
+                  className={`relative flex h-20 ${skill.wide ? 'w-56' : 'w-36'} items-center justify-center`}
                   title={skill.name}
                 >
                   <img
                     src={skill.logo}
                     alt={skill.name}
-                    className="max-h-16 max-w-full object-contain"
+                    className={`max-h-16 max-w-full object-contain ${
+                      skill.darkLogo ? 'dark:hidden' : ''
+                    } ${skill.invertInDark ? 'dark:brightness-0 dark:invert' : ''}`}
                   />
+                  {skill.darkLogo && (
+                    <img
+                      src={skill.darkLogo}
+                      alt={skill.name}
+                      className="hidden max-h-16 max-w-full object-contain dark:block"
+                    />
+                  )}
                 </div>
               ))}
             </div>
