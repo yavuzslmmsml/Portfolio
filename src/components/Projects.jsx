@@ -28,7 +28,7 @@ export default function Projects() {
               Projeler
             </p>
             <h2 className="mt-4 font-kalam text-3xl font-bold leading-tight tracking-tight text-[#1E2329] sm:text-4xl dark:text-white">
-              Gelişim aşamasındaki teknik projeler.
+              Gelişim aşamasındaki projeler.
             </h2>
           </div>
         </div>
@@ -37,13 +37,13 @@ export default function Projects() {
           {projects.map((project) => (
             <article
               key={project.title}
-              className="flex min-h-[300px] flex-col rounded-2xl border border-[#1E2329]/10 bg-white p-6 transition-colors duration-300 ease-in-out hover:border-[#FCD535] dark:border-white/10 dark:bg-[#1E2329]"
+              className="flex min-h-[300px] flex-col rounded-2xl border border-[#1E2329]/10 bg-white p-6 transition-colors duration-300 ease-in-out dark:border-white/10 dark:bg-[#1E2329]"
             >
               <div className="flex items-start justify-between gap-4">
                 <h3 className="text-xl font-semibold tracking-tight text-[#1E2329] dark:text-white">
                   {project.title}
                 </h3>
-                <span className="shrink-0 rounded-full bg-[#FCD535] px-3 py-1 text-xs font-semibold text-[#1E2329]">
+                <span className="shrink-0 rounded-md bg-[#FCD535] px-3 py-1 text-xs font-semibold text-[#1E2329]">
                   Yakında
                 </span>
               </div>
@@ -54,7 +54,7 @@ export default function Projects() {
                 {project.technologies.map((technology) => (
                   <span
                     key={technology}
-                    className="rounded-full bg-[#1E2329] px-3 py-1 text-xs font-semibold text-white dark:bg-white dark:text-[#1E2329]"
+                    className="rounded-md bg-[#1E2329] px-3 py-1 text-xs font-semibold text-white dark:bg-white dark:text-[#1E2329]"
                   >
                     {technology}
                   </span>

@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
+import SkillSlider from './components/SkillSlider';
 import Skills from './components/Skills';
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
         <Hero />
         <About />
         <Skills />
+        <SkillSlider />
         <Projects />
         <Contact />
       </main>

@@ -15,9 +15,6 @@ export default function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 sm:py-24 lg:grid-cols-[1.08fr_0.92fr] lg:px-8 lg:py-28">
         <div className="max-w-3xl">
-          <p className="mb-5 inline-flex rounded-full bg-[#FCD535] px-4 py-2 text-sm font-semibold text-[#1E2329] shadow-sm">
-            Junior Cloud Specialist
-          </p>
           <h1 className="font-kalam text-4xl font-bold leading-tight tracking-tight text-[#1E2329] sm:text-5xl lg:text-6xl dark:text-white">
             Cloud altyapıları ve backend sistemler üzerine kendimi geliştiriyorum.
           </h1>
@@ -25,26 +22,16 @@ export default function Hero() {
             Cloud deneyimimi; API tasarımı, otomasyon ve ölçeklenebilir sistem
             mantığıyla güçlendiriyorum.
           </p>
-
-          <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center rounded-full bg-[#1E2329] px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors duration-300 ease-in-out hover:bg-[#FCD535] hover:text-[#1E2329] focus:outline-none focus:ring-2 focus:ring-[#FCD535] focus:ring-offset-4 dark:bg-[#FCD535] dark:text-[#1E2329] dark:hover:bg-white dark:focus:ring-offset-[#1E2329]"
-            >
-              İletişime Geç
-            </a>
-          </div>
         </div>
 
-        <div className="rounded-2xl bg-[#F5F5F5] p-6 transition-colors duration-300 ease-in-out hover:bg-[#F2F2F2] dark:border dark:border-white/10 dark:bg-[#1E2329] dark:hover:border-[#FCD535]">
+        <div className="rounded-2xl bg-[#F5F5F5] p-6 transition-colors duration-300 ease-in-out hover:bg-[#F2F2F2] dark:border dark:border-white/10 dark:bg-[#1E2329]">
           <div className="flex items-center justify-between pb-5">
             <div>
-              <p className="text-sm font-semibold text-[#FCD535]">Odak alanlarım</p>
               <h2 className="mt-1 text-xl font-semibold text-[#1E2329] dark:text-white">
-                Teknik gelişim yönü
+                Gelişim yönü
               </h2>
             </div>
-            <span className="rounded-full bg-[#FCD535] px-3 py-1 text-xs font-semibold text-[#1E2329]">
+            <span className="rounded-md bg-[#FCD535] px-3 py-1 text-xs font-semibold text-[#1E2329]">
               2026
             </span>
           </div>
@@ -53,7 +40,7 @@ export default function Hero() {
             {tags.map((tag) => (
               <div
                 key={tag}
-                className="flex items-center justify-between rounded-2xl bg-white px-4 py-4 transition-colors duration-300 ease-in-out dark:border dark:border-white/10 dark:bg-white/5"
+                className="flex items-center justify-between rounded-2xl border border-[#1E2329]/10 bg-white px-4 py-4 transition-colors duration-300 ease-in-out hover:border-[#FCD535] dark:border-white/10 dark:bg-white/5 dark:hover:border-[#FCD535]"
               >
                 <span className="text-sm font-semibold text-[#1E2329] dark:text-zinc-100">
                   {tag}

@@ -39,7 +39,7 @@ export default function Skills() {
           {skills.map((skill) => (
             <article
               key={skill.title}
-              className="rounded-2xl border border-[#1E2329]/10 bg-white p-6 transition-colors duration-300 ease-in-out hover:border-[#FCD535] dark:border-white/10 dark:bg-[#1E2329]"
+              className="rounded-2xl border border-[#1E2329]/10 bg-white p-6 transition-colors duration-300 ease-in-out dark:border-white/10 dark:bg-[#1E2329]"
             >
               <h3 className="text-lg font-semibold text-[#1E2329] dark:text-white">
                 {skill.title}
@@ -48,7 +48,7 @@ export default function Skills() {
                 {skill.items.map((item) => (
                   <li
                     key={item}
-                    className="rounded-full border border-[#1E2329]/10 px-3 py-2 text-sm font-medium text-[#1E2329]/70 transition-colors duration-300 ease-in-out hover:border-[#FCD535] hover:text-[#1E2329] dark:border-white/10 dark:bg-white/5 dark:text-zinc-200 dark:hover:border-[#FCD535]/60 dark:hover:text-[#FCD535]"
+                    className="rounded-md border border-[#1E2329]/10 px-3 py-2 text-sm font-medium text-[#1E2329]/70 transition-colors duration-300 ease-in-out hover:border-[#FCD535] hover:text-[#1E2329] dark:border-white/10 dark:bg-white/5 dark:text-zinc-200 dark:hover:border-[#FCD535]/60 dark:hover:text-[#FCD535]"
                   >
                     {item}
                   </li>

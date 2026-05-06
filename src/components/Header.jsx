@@ -40,7 +40,7 @@ export default function Header({ isDarkMode, onToggleMode }) {
           <button
             type="button"
             onClick={onToggleMode}
-            className="group inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#FCD535] bg-transparent transition-colors duration-300 ease-in-out hover:border-[#FCD535] focus:outline-none"
+            className="group inline-flex h-10 w-10 items-center justify-center rounded-md border border-[#FCD535] bg-transparent transition-colors duration-300 ease-in-out hover:border-[#FCD535] focus:outline-none"
             aria-label={isDarkMode ? 'Açık moda geç' : 'Koyu moda geç'}
             title={isDarkMode ? 'Açık moda geç' : 'Koyu moda geç'}
           >

@@ -13,3 +13,23 @@
     font-family: 'Kalam', cursive;
   }
 }
+
+@layer utilities {
+  .skill-slider-track {
+    animation: skill-slide 28s linear infinite;
+  }
+
+  .skill-slider-track:hover {
+    animation-play-state: paused;
+  }
+
+  @keyframes skill-slide {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(-25%);
+    }
+  }
+}
