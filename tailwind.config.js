@@ -7,7 +7,8 @@ export default {
       fontFamily: {
         kalam: ['Kalam', 'cursive'],
         sans: [
-          'Inter',
+          'Kalam',
+          'cursive',
           'ui-sans-serif',
           'system-ui',
           'Segoe UI',
