@@ -5,7 +5,7 @@ export default function About() {
   return (
     <RevealSection
       id="about"
-      className="scroll-mt-6 bg-white py-20 transition-colors duration-300 ease-in-out sm:py-24 dark:bg-[#1E2329]"
+      className="scroll-mt-6 border-b border-[#1E2329]/5 bg-white py-20 transition-colors duration-300 ease-in-out sm:py-24 dark:border-white/5 dark:bg-[#1E2329]"
     >
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-[0.9fr_0.8fr] lg:px-8">
         <div>

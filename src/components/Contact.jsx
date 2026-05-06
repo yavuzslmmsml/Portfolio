@@ -13,7 +13,7 @@ export default function Contact() {
   return (
     <RevealSection
       id="contact"
-      className="scroll-mt-6 border-t border-[#1E2329]/10 bg-white py-20 text-[#1E2329] transition-colors duration-300 ease-in-out sm:py-24 dark:border-white/10 dark:bg-[#1E2329] dark:text-white"
+      className="scroll-mt-6 border-t border-[#1E2329]/5 bg-white py-20 text-[#1E2329] transition-colors duration-300 ease-in-out sm:py-24 dark:border-white/5 dark:bg-[#1E2329] dark:text-white"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-center">
@@ -37,7 +37,7 @@ export default function Contact() {
                   key={link.label}
                   href={link.href}
                   target={link.target}
-                  className="group inline-flex items-center justify-center gap-2 rounded-md border border-[#1E2329]/10 bg-[#1E2329] px-5 py-3 text-sm font-semibold text-white transition-colors duration-300 ease-in-out hover:bg-[#FCD535] hover:text-[#1E2329] focus:outline-none focus:ring-2 focus:ring-[#FCD535] focus:ring-offset-4 dark:border-white/10 dark:bg-[#FCD535] dark:text-[#1E2329] dark:hover:bg-white dark:focus:ring-offset-[#1E2329]"
+                  className="group inline-flex items-center justify-center gap-2 rounded-md border border-[#1E2329]/5 bg-[#1E2329] px-5 py-3 text-sm font-semibold text-white transition-colors duration-300 ease-in-out hover:bg-[#FCD535] hover:text-[#1E2329] focus:outline-none focus:ring-2 focus:ring-[#FCD535] focus:ring-offset-4 dark:border-white/5 dark:bg-[#FCD535] dark:text-[#1E2329] dark:hover:bg-white dark:focus:ring-offset-[#1E2329]"
                 >
                   <img
                     src={link.icon}
