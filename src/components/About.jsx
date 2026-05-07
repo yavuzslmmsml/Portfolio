@@ -12,15 +12,12 @@ export default function About() {
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#FCD535]">
             Hakkımda
           </p>
-          <h2 className="mt-4 text-3xl font-bold leading-tight tracking-tight text-[#1E2329] sm:text-4xl dark:text-white">
-            Sistemleri anlamaya ve doğru mimariyle geliştirmeye odaklanıyorum.
-          </h2>
+          
+          <p className="mt-8 text-base leading-8 text-[#1E2329]/70 sm:text-lg dark:text-zinc-200">Merhaba, ben Yavuz Selim Muşmul.</p>
           <p className="mt-8 text-base leading-8 text-[#1E2329]/70 sm:text-lg dark:text-zinc-200">
-            Ben Yavuz Selim Muşmul. Cloud alanına odaklanıyor; sistemleri
-            yalnızca kullanmayı değil, çalışma mantığını anlamayı ve tasarlamayı
-            önemsiyorum. Backend servisler, API tasarımı ve mimari kararlar
-            ilgimi çeken ana konular. Öğrenme sürecimi küçük ama gerçek sistem
-            mantığı taşıyan projelerle ilerletiyorum.
+            Cloud alanına odaklanan, 
+            sistemleri yalnızca kullanmakla kalmayıp doğru mimarilerle tasarlamayı önemseyen bir geliştiriciyim. 
+            Özellikle backend servisleri, API tasarımı ve ölçeklenebilir sistem mimarileri üzerinde yoğunlaşıyorum. Öğrenme sürecimi; gerçek dünya senaryolarını temel alan, teknik olarak anlamlı ve sürdürülebilir projeler geliştirerek ilerletiyorum.
           </p>
         </div>
 

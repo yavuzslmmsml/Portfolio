@@ -40,15 +40,17 @@ export default function Header({ isDarkMode, onToggleMode }) {
           <button
             type="button"
             onClick={onToggleMode}
-            className="group inline-flex h-10 w-10 items-center justify-center rounded-md border border-[#FCD535] bg-transparent transition-colors duration-300 ease-in-out hover:border-[#FCD535] focus:outline-none"
+            className="group inline-flex h-10 w-10 items-center justify-center rounded-md bg-transparent text-[#1E2329] transition-colors duration-300 ease-in-out hover:text-[#FCD535] focus:outline-none dark:text-white dark:hover:text-[#FCD535]"
             aria-label={isDarkMode ? 'Açık moda geç' : 'Koyu moda geç'}
             title={isDarkMode ? 'Açık moda geç' : 'Koyu moda geç'}
           >
-            <img
-              src={modeIcon}
-              alt=""
+            <span
               aria-hidden="true"
-              className="h-5 w-5 brightness-0 transition duration-300 ease-in-out group-hover:opacity-70 dark:invert"
+              className="h-5 w-5 bg-current transition-colors duration-300 ease-in-out"
+              style={{
+                WebkitMask: `url(${modeIcon}) center / contain no-repeat`,
+                mask: `url(${modeIcon}) center / contain no-repeat`,
+              }}
             />
           </button>
         </div>

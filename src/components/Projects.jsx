@@ -27,7 +27,7 @@ export default function Projects() {
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#FCD535]">
               Projeler
             </p>
-            <h2 className="mt-4 text-3xl font-bold leading-tight tracking-tight text-[#1E2329] sm:text-4xl dark:text-white">
+            <h2 className="mt-4 font-bold leading-tight tracking-tight text-[#1E2329] sm:text-xl dark:text-white">
               Gelişim aşamasındaki projeler.
             </h2>
           </div>
@@ -43,7 +43,7 @@ export default function Projects() {
                 <h3 className="text-xl font-semibold tracking-tight text-[#1E2329] dark:text-white">
                   {project.title}
                 </h3>
-                <span className="shrink-0 rounded-md bg-[#FCD535] px-3 py-1 text-xs font-semibold text-[#1E2329]">
+                <span className="px-3 py-1 text-xs">
                   Yakında
                 </span>
               </div>
