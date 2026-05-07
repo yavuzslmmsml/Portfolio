@@ -31,6 +31,7 @@ export default function Header({ isDarkMode, onToggleMode }) {
                     className="transition-colors duration-300 ease-in-out hover:text-[#1E2329] focus:outline-none focus:ring-2 focus:ring-[#FCD535] focus:ring-offset-4 dark:hover:text-white dark:focus:ring-offset-[#1E2329]"
                   >
                     {link.label}
+                    
                   </a>
                 </li>
               ))}
