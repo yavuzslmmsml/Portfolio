@@ -15,7 +15,7 @@ export default function Hero() {
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-6 py-20 sm:py-24 lg:grid-cols-[1.08fr_0.92fr] lg:px-8 lg:py-28">
         <div className="max-w-3xl">
-          <h1 className="font-kalam text-4xl font-bold leading-tight tracking-tight text-[#1E2329] sm:text-5xl lg:text-6xl dark:text-white">
+          <h1 className="text-4xl font-bold leading-tight tracking-tight text-[#1E2329] sm:text-5xl lg:text-6xl dark:text-white">
             Cloud altyapıları ve backend sistemler üzerine kendimi geliştiriyorum.
           </h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-[#1E2329]/70 sm:text-lg dark:text-zinc-200">

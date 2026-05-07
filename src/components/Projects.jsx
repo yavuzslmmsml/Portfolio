@@ -27,7 +27,7 @@ export default function Projects() {
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#FCD535]">
               Projeler
             </p>
-            <h2 className="mt-4 font-kalam text-3xl font-bold leading-tight tracking-tight text-[#1E2329] sm:text-4xl dark:text-white">
+            <h2 className="mt-4 text-3xl font-bold leading-tight tracking-tight text-[#1E2329] sm:text-4xl dark:text-white">
               Gelişim aşamasındaki projeler.
             </h2>
           </div>

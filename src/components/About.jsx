@@ -12,7 +12,7 @@ export default function About() {
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#FCD535]">
             Hakkımda
           </p>
-          <h2 className="mt-4 font-kalam text-3xl font-bold leading-tight tracking-tight text-[#1E2329] sm:text-4xl dark:text-white">
+          <h2 className="mt-4 text-3xl font-bold leading-tight tracking-tight text-[#1E2329] sm:text-4xl dark:text-white">
             Sistemleri anlamaya ve doğru mimariyle geliştirmeye odaklanıyorum.
           </h2>
           <p className="mt-8 text-base leading-8 text-[#1E2329]/70 sm:text-lg dark:text-zinc-200">

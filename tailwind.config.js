@@ -5,13 +5,19 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        kalam: ['Space Grotesk', 'sans-serif'],
         sans: [
-          'Space Grotesk',
-          'ui-sans-serif',
-          'system-ui',
-          'Segoe UI',
-          'sans-serif',
+          'JetBrains Mono',
+          'ui-monospace',
+          'SFMono-Regular',
+          'Consolas',
+          'monospace',
+        ],
+        mono: [
+          'JetBrains Mono',
+          'ui-monospace',
+          'SFMono-Regular',
+          'Consolas',
+          'monospace',
         ],
       },
     },
