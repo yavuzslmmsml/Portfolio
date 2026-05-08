@@ -21,7 +21,7 @@ export default function Contact() {
             <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#FCD535]">
               İletişim
             </p>
-            <h2 className="mt-4 text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
+            <h2 className="mt-4 text-3xl font-bold leading-tight tracking-tight sm:text-2xl">
               Teknik fikirler ve iş birlikleri için iletişime açığım.
             </h2>
           </div>
