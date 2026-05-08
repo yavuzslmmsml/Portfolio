@@ -34,19 +34,19 @@ export default function SkillSlider() {
           {[0, 1, 2, 3].map((group) => (
             <div
               key={group}
-              className="flex shrink-0 items-center gap-14 pr-14"
+              className="flex shrink-0 items-center gap-7 pr-7 sm:gap-14 sm:pr-14"
               aria-hidden={group === 1}
             >
               {sliderSkills.map((skill) => (
                 <div
                   key={`${group}-${skill.name}`}
-                  className={`relative flex h-20 ${skill.wide ? 'w-56' : 'w-36'} items-center justify-center`}
+                  className={`relative flex h-16 ${skill.wide ? 'w-40 sm:w-56' : 'w-24 sm:w-36'} items-center justify-center sm:h-20`}
                   title={skill.name}
                 >
                   <img
                     src={skill.logo}
                     alt={skill.name}
-                    className={`max-h-16 max-w-full object-contain ${
+                    className={`max-h-10 max-w-[82%] object-contain sm:max-h-16 sm:max-w-full ${
                       skill.darkLogo ? 'dark:hidden' : ''
                     } ${skill.invertInDark ? 'dark:brightness-0 dark:invert' : ''}`}
                   />
@@ -54,7 +54,7 @@ export default function SkillSlider() {
                     <img
                       src={skill.darkLogo}
                       alt={skill.name}
-                      className="hidden max-h-16 max-w-full object-contain dark:block"
+                      className="hidden max-h-10 max-w-[82%] object-contain sm:max-h-16 sm:max-w-full dark:block"
                     />
                   )}
                 </div>
